@@ -27,6 +27,6 @@ Reports, books, slides, and so on.
 
 ### Templates for LaTeX packages and classes
 
-Tags: <font style="color:red"> advanced, company </font>
+Tags: **_<font style="color:red"> advanced, company </font>_**.
 
 Create new classes and packages easily.

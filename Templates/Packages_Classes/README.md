@@ -2,7 +2,7 @@
 Alex_cooks__LaTeX - Templates / Packages & Classes
 ==================================================
 
-Tags: <font style="color:red">advanced, company</font>.
+Tags: **_<font style="color:red">advanced, company</font>_**.
 
 
 
