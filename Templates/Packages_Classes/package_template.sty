@@ -1,0 +1,88 @@
+
+%%              %%
+% IDENTIFICATION %
+% ============== %
+
+
+
+% Version of LaTeX required
+% -------------------------
+\NeedsTeXFormat{LaTeX2e}
+
+% Package declaration
+% -------------------   *** Replace 'package_template' with the file name without the .sty extension ***
+\ProvidesPackage{package_template}[yyyy/mm/dd Additional information about the package_template package]
+
+
+
+%%                        %%
+% PRELIMINARY DECLARATIONS %
+% ======================== %
+
+
+
+% Packages needed in the declared options
+% ---------------------------------------
+\RequirePackage[options]{package-name}
+
+
+% Commands declaration needed in the declared options
+% ---------------------------------------------------
+\newcommand*{cmd}{def}
+\renewcommand*{cmd}{def}
+\DeclareRobustCommand*{cmd}{def}
+
+\newcommand{cmd}{def}
+\renewcommand{cmd}{def}
+\DeclareRobustCommand{cmd}{def}
+
+
+
+%%       %%
+% OPTIONS %
+% ======= %
+
+
+
+% New option
+% ----------   *** Useful commands: \CurrentOption, \OptionNotUsed, PassOptionsToPackage{options-list}{package-name}, \PassOptionsToClass{options-list}{class-name} ***
+\DeclareOption{option_name}{code}
+
+
+% Management of not explicitly declared options (default: error)
+% ---------------------------------------------
+\DeclareOption*{code}
+
+
+% Default option list
+% -------------------   *** Replace 'options-list' by all options (separated by a comma) that must be used by default ***
+\ExecuteOptions{options-list}
+
+
+% Processing the options
+% ----------------------
+\ProcessOptions\relax
+
+
+
+%%                 %%
+% CORE DECLARATIONS %
+% ================= %
+
+
+
+% Call to specific packages
+% -------------------------
+\RequirePackage[options]{package-name}
+\RequirePackageWithOptions{package-name}
+
+
+% Commands definition
+% -------------------
+\newcommand*{cmd}{def}
+\renewcommand*{cmd}{def}
+\DeclareRobustCommand*{cmd}{def}
+
+\newcommand{cmd}{def}
+\renewcommand{cmd}{def}
+\DeclareRobustCommand{cmd}{def}
