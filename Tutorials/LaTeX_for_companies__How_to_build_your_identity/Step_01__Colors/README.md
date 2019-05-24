@@ -33,6 +33,7 @@ How
 
 As an example, I will show you how I can create a package that defines the colors
 of the University of Mons, Belgium, as specified in the corporate identity and style guide.
+If you are interested in seeing the full package, you can go [here](https://github.com/Arkh42/UMONS_latex.git).
 
 
 ### 1. Get the package template
