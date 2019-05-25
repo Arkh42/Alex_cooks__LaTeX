@@ -30,11 +30,23 @@ Files:
 - class_template.cls
 - package_template.sty
 
-All classes and templates have the same structure:
+All classes and packages have the same structure:
 1. identification (which LaTeX version, which class/package),
 2. preliminary declaration (what is needed for options),
 3. options (declaration & management), and
 4. core declaration (main part of the class/package).
 
 There are slight differences if you want *key=value* options.
-(More to come about that.)
+See next section.
+
+
+### Minimal templates with key=value options
+
+Files:
+- class_template__keyval_option.cls
+- package_template__keyval_option.sty
+
+Classes and packages have the same aforementioned structure.
+Differences come from the management of the *key=value* options.
+To do so, I'm using the **kvoptions** package.
+There are others. But I like this one for the simplicity.
