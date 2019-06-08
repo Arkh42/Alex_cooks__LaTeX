@@ -27,9 +27,9 @@ Contents
 
 ### List of modules dedicated to beginners
 
-- How to start well
+- [How to start well](LaTeX_for_beginners__How_to_start_well)
 
 
 ### List of modules dedicated to companies
 
-- How to build your identity
+- [How to build your identity](LaTeX_for_companies__How_to_build_your_identity)
