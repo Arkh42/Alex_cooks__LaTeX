@@ -25,6 +25,7 @@ Step 1: install LaTeX
 Learn how to install LaTeX, i.e.,
 a *distribution* (tools necessary to generate a PDF document from your LaTeX file) and
 an *editor* (program which simplifies the LaTeX writing).
+It's [Step_01__Install](here).
 
 
 
@@ -35,3 +36,9 @@ Step 2: compile LaTeX
 Learn the differences between LaTeX *compilers* to avoid the common mistakes
 and hard work on weird errors in the future.
 By the end of the step, you will be able to create your first document.
+Go [Step_02__Compile](there).
+
+
+
+Step 3: set the language
+------------------------
