@@ -39,7 +39,7 @@ in order to make "robust" LaTeX documents.
 
 In addition, many features become **compiler-dependent**, so please be careful about that.
 If you have no idea what I'm writing about (who does?), please refer to
-[../Step_02__Compile](Step 2: compile LaTeX).
+[Step 2: compile LaTeX](../Step_02__Compile).
 
 
 ### 1. Manage accented letters and font encoding
@@ -112,11 +112,52 @@ small capital letters and slanted (between normal and italic) styles.
 
 ### 3. Select the language
 
+As mentionned in the introduction, typography can be a true nightmare to manage.
+This is the reason why packages have been created to do so.
+You simply must pass the language of your choice as an option of the package. That's it!
+
+Two packages are very powerful for the languages in LaTeX:
+1. [babel](https://ctan.org/pkg/babel), and
+2. [polyglossia](https://ctan.org/pkg/polyglossia).
+
+The former works with all compilers.
+The latter requires the `fontspec`  package, hence XeLaTeX or LuaLaTeX.
+
 
 ### 4. Improve quotations management
 
+Quotes are part of the typographical nightmare.
+Indeed, many people use the straight quotes ("") coming from IT and keyboards, even thought it is uncorrect.
+As an example, correct quotes in French are << and >> with non separable space.
+
+Unfortunately, LaTeX can't transform a character into another.
+But you're not on your own: the `csquotes` package is here to work for you.
+Pay attention: `csquotes` is orginally  made to work with `babel`.
+However, it usually works fine with `polyglossia`.
+
 
 ### 5. Enhance typography management
+
+Last but not least, typography is a science that aims to make the reading as comfortable as possible
+without the reader being aware of it.
+Among other techniques: character protrusion, font expansion and letterspacing.
+
+Any document has better rendering with the `microtype`.
+This package is powerful but all compilers do not allow to use it at 100 %.
+The best compilers from the `microtype` point of view are PDFLaTeX and LuaLaTeX.
+
+Anyway, if you are interested in "microtypography", you can find information [here](https://www.ctan.org/pkg/microtype).
+
+
+### 6. Create your first complete document!
+
+Six **.tex** documents are available in the repository:
+- [tex file for the latex compiler and the babel package](first_complete_doc__latex_babel.tex)
+- [tex file for the pdflatex compiler and the babel package](first_complete_doc__pdflatex_babel.tex)
+- [tex file for the xelatex compiler and the babel package](first_complete_doc__xelatex_babel.tex)
+- [tex file for the lualatex compiler and the babel package](first_complete_doc__lualatex_babel.tex)
+- [tex file for the xelatex compiler and the polyglossia package](first_complete_doc__xelatex_polyglossia.tex)
+- [tex file for the lualatex compiler and the polyglossia package](first_complete_doc__lualatex_polyglossia.tex)
 
 
 ### Step completed!
